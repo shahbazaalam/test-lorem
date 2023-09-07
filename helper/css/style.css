@@ -1,0 +1,207 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+  background-color: #000;
+  position: relative;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+html,body {
+  height: 100%;
+}
+
+
+.header-main {
+  padding: 15px 0px;
+}
+
+/** ***/
+.container-1290 {
+  max-width: 1290px;
+  padding: 0 12px 0 12px;
+}
+
+.header {
+  /*background-image: linear-gradient(to right, red , yellow);*/
+  background-image: url('../images/bg-header.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 15px 0px 12px;
+}
+.header-nav .navbar-nav {
+  flex-direction: row;
+  overflow: hidden;
+}
+.header-nav .navbar-nav > li
+{
+  margin: 0 24px 0 24px;
+}
+.header-nav .navbar-nav > li a {
+  color: #FFF;
+  white-space: nowrap;
+  text-align: center;
+  /* font-family: Montserrat; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100.023%; /* 18.004px */
+  text-transform: uppercase;
+}
+
+.esTitle {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92%; /* 110.4px */
+  padding: 0 12px 0 12px;
+}
+.esText {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 168%; /* 30.24px */
+  letter-spacing: -0.212px;
+  opacity: 0.7;
+}
+
+
+.lorem-section {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.lorem-box {
+  margin-bottom: 40px;
+}
+.lorem-img {
+  margin-bottom: 30px;
+}
+.lorem-title {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.212px;
+  text-transform: uppercase;
+}
+.lorem-text {
+  color: #FFFFFF;
+  /* font-family: 'Montserrat'; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 168%; /* 30.24px */
+  letter-spacing: -0.212px;
+
+  opacity: 0.7;
+}
+.section8offset{
+  justify-content: flex-end;
+}
+/*** ***/
+.about-us-section {
+  position: relative;
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+.about-row {
+  margin-top: 100px;
+}
+.about-header {
+  position: relative;
+}
+
+/** **/
+.accordian-section {
+  padding-top: 150px;
+  padding-bottom: 190px;
+}
+.GeneralAcc .accordion-item {
+  border: none;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+.GeneralAcc .accordion-item:last-child {
+  border-bottom: none;
+}
+.GeneralAcc button.accordion-button {
+  width: 100%;
+  outline: 0;
+  box-shadow: none;
+  border-radius: 0 !important;
+  background-color: #000;
+  
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  color: #ffffff;
+  padding-left: 0;
+  padding-right: 0;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100.023%; /* 24.005px */
+  text-transform: uppercase;
+}
+.GeneralAcc .accordion-body {
+  padding-left: 0;
+  padding-right: 0;
+
+  color: #ffffff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 168%; /* 30.24px */
+  letter-spacing: -0.212px;
+  opacity: 0.8;
+}
+.GeneralAcc .accordion-button .accordian-title {
+  position: relative;
+}
+.GeneralAcc button.accordion-button p{
+  float: left;
+}
+/* .GeneralAcc .accordion-button::after {
+  display: none;
+} */
+/* .GeneralAcc .accordion-button .accordian-title::after {
+  content: '-';
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  right: 0;
+  font-size: 50px;
+  top: 0;
+} */
+/* .GeneralAcc .accordion-button:not(.collapsed) .accordian-title::after {
+  content: '+';
+} */
+.accodiansymbol{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  right: 0;
+  font-size: 50px;
+  top: 0;
+}
