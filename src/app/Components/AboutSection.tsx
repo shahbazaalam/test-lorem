@@ -1,9 +1,9 @@
 export default function AboutSection(){
     return (
-        <section className="about-us-section section">
+        <section id="AboutUs" className="about-us-section section">
         <div className="container mx-auto sm:px-4 container-1290">
   
-          <div className="flex flex-wrap ">
+          <div className="flex flex-wrap bg-show">
             <div className="md:w-1/5 pr-4 pl-4">
               <div className="about-header">
                 <h2 className="esTitle uppercase">About <br/>Us</h2>

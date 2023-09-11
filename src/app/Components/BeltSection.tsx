@@ -2,12 +2,61 @@
 export default function BeltSection(){
     return(
 
-        <section className="header">
-      <nav className="header-nav">
-        <ul className="navbar-nav flex  pl-0 mb-0 lg:my-0 justify-center">
+      <section id="DolorSet" className="header overflow-hidden">
+      <nav className="header-nav flex">
+        <ul className="navbar-nav my-lg-0 justify-content-center animate-marquee flex flex-row">                                                       
           <li>
-            <a className="active" aria-current="page" href="#">lorem Ipsum</a>
-          </li>                                                       
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+        </ul>
+        <ul className="navbar-nav my-lg-0 justify-content-center animate-marquee flex flex-row">                                                       
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+          <li>
+            <a href="#">lorem Ipsum</a>
+          </li>
+        </ul>
+        <ul className="navbar-nav my-lg-0 justify-content-center animate-marquee flex flex-row">                                                       
           <li>
             <a href="#">lorem Ipsum</a>
           </li>

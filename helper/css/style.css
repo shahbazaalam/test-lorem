@@ -18,9 +18,30 @@ html,body {
 }
 
 
+
 .header-main {
   padding: 15px 0px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  background-color: #000;
 }
+.header-navmain .nav-menu > li a {
+  color: #FFF;
+  white-space: nowrap;
+  text-align: center;
+  /* font-family: Montserrat; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100.023%; /* 18.004px */
+  text-transform: uppercase;
+}
+
+
+
 
 /** ***/
 .container-1290 {
@@ -37,7 +58,6 @@ html,body {
 }
 .header-nav .navbar-nav {
   flex-direction: row;
-  overflow: hidden;
 }
 .header-nav .navbar-nav > li
 {
@@ -62,7 +82,7 @@ html,body {
   font-style: normal;
   font-weight: 700;
   line-height: 92%; /* 110.4px */
-  padding: 0 12px 0 12px;
+  /* padding: 0 12px 0 12px; */
 }
 .esText {
   color: #FFFFFF;
@@ -138,6 +158,9 @@ html,body {
 }
 .GeneralAcc button.accordion-button {
   width: 100%;
+  /* height: 34px; */
+  padding-top: 16px;
+  padding-bottom: 16px;
   outline: 0;
   box-shadow: none;
   border-radius: 0 !important;
@@ -160,6 +183,8 @@ html,body {
   padding-left: 0;
   padding-right: 0;
 
+  padding-top: 30px;
+
   color: #ffffff;
   font-size: 18px;
   font-style: normal;
@@ -167,6 +192,7 @@ html,body {
   line-height: 168%; /* 30.24px */
   letter-spacing: -0.212px;
   opacity: 0.8;
+
 }
 .GeneralAcc .accordion-button .accordian-title {
   position: relative;
@@ -174,11 +200,16 @@ html,body {
 .GeneralAcc button.accordion-button p{
   float: left;
 }
-/* .GeneralAcc .accordion-button::after {
+.GeneralAcc .accordion-button:not(.collapsed) {
+  background-image: url(../images/bg-header.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.GeneralAcc .accordion-button::after {
   display: none;
-} */
-/* .GeneralAcc .accordion-button .accordian-title::after {
-  content: '-';
+}
+.GeneralAcc .accordion-button .accordian-title::after {
+  /* content: '-'; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -189,7 +220,7 @@ html,body {
   right: 0;
   font-size: 50px;
   top: 0;
-} */
+}
 /* .GeneralAcc .accordion-button:not(.collapsed) .accordian-title::after {
   content: '+';
 } */
@@ -205,3 +236,47 @@ html,body {
   font-size: 50px;
   top: 0;
 }
+.header-navmain .navbar-nav > li a {
+  color: #FFF;
+  white-space: nowrap;
+  text-align: center;
+  /* font-family: Montserrat; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100.023%; /* 18.004px */
+  text-transform: uppercase;
+}
+
+.accordion-collapse .show{
+
+}
+@keyframes marquee {
+  0% {
+      transform: translateX(0)
+  }
+
+  to {
+      transform: translateX(-100%)
+  }
+}
+
+.animate-marquee {
+  animation: marquee 8s linear infinite
+}
+
+
+.bg-show {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-show:hover {
+  transition: all 1s ease-in-out;
+  background-image: url('/bghover.jpg');
+}
+.bg-show:hover .about-thumb-circle {
+  opacity: 0;
+}
+
+
+

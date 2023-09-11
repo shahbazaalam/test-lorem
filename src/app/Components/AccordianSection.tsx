@@ -27,7 +27,7 @@ export default function AccordianSection(){
         <section className= "accordian-section section">
         <div className= "container mx-auto sm:px-4 max-w-full mx-auto sm:px-4 container-1290">
           <h2 className= "esTitle uppercase">lorem ipsum dolor</h2>
-       
+          </div>
   
         <p className= "md:py-4 py-2 mb-1"></p>
         <div className= "GeneralAcc">
@@ -41,7 +41,7 @@ export default function AccordianSection(){
       </div>
       
        
-        </div>
+       
       </section>
     )
 }
