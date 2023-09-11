@@ -32,8 +32,8 @@ export default function AccordianSection(){
         <p className= "md:py-4 py-2 mb-1"></p>
         <div className= "GeneralAcc">
           <div className= "accordion" id="GeneralExample">
-            {accData && accData.map((e)=>{
-                return <Accordion title={e.title} content={e.content} />
+            {accData && accData.map((e,i)=>{
+                return <Accordion key={e.title+i} title={e.title} content={e.content} />
             })}
         
       
