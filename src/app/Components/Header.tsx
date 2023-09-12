@@ -49,8 +49,8 @@ setActive(!oldact)
             </div>
             <nav className="header-navmain">
               <ul className="nav-menu flex flex-wrap list-reset pl-0 mb-0 lg:my-0">
-                {menuData && menuData.map((e)=>{
-                  return <li > <a href={e.url}  onClick={toggle}>{e.menuName}</a></li>
+                {menuData && menuData.map((e,i)=>{
+                  return <li  key={'menu'+ i} > <a href={e.url} onClick={toggle}>{e.menuName}</a></li>
                 })}
                 {/* <li>
                   <a href="#home" onClick={toggle}>LOREM IPSUM</a>
