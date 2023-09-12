@@ -1,5 +1,18 @@
 'use client'
 import { useState } from "react"
+const menuData=[{
+  "menuName":"LOREM IPSUM",
+  "url":"#home"
+},
+{
+  "menuName":"LOREM IPSUM",
+  "url":"#AboutUs"
+},
+{
+  "menuName":"LOREM IPSUM",
+  "url":"#DolorSet"
+}
+]
 export default function Header() {
   const[Active,setActive]=useState<boolean>(false)
 
@@ -36,15 +49,18 @@ setActive(!oldact)
             </div>
             <nav className="header-navmain">
               <ul className="nav-menu flex flex-wrap list-reset pl-0 mb-0 lg:my-0">
-                <li>
-                  <a href="#home" onClick={toggle}>Home</a>
+                {menuData && menuData.map((e)=>{
+                  return <li > <a href={e.url}  onClick={toggle}>{e.menuName}</a></li>
+                })}
+                {/* <li>
+                  <a href="#home" onClick={toggle}>LOREM IPSUM</a>
                 </li>
                 <li>
-                  <a href="#AboutUs" onClick={toggle}>About Us</a>
+                  <a href="#AboutUs" onClick={toggle}>LOREM IPSUM</a>
                 </li>
                 <li>
-                  <a href="#DolorSet" onClick={toggle}>Dolor Set</a>
-                </li>
+                  <a href="#DolorSet" onClick={toggle}>LOREM IPSUM</a>
+                </li> */}
               </ul>
             </nav>
           </div>
