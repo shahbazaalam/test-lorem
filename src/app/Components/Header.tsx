@@ -35,7 +35,7 @@ setActive(!oldact)
               <span className="close-menus" onClick={toggle}></span>
             </div>
             <nav className="header-navmain">
-              <ul className="nav-menu md:flex flex-wrap list-reset pl-0 mb-0 lg:my-0">
+              <ul className="nav-menu flex flex-wrap list-reset pl-0 mb-0 lg:my-0">
                 <li>
                   <a href="#home" onClick={toggle}>Home</a>
                 </li>

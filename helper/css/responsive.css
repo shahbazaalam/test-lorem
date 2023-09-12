@@ -15,6 +15,7 @@
 	}
 
   .header-navmain .nav-menu {
+    display: none;
     flex-direction: row;
     overflow: hidden;
   }
@@ -52,6 +53,10 @@
     }
 
     /** Mobile Menu Burgur **/
+    .header-navmain .nav-menu {
+      display: flex;
+      flex-direction: column;
+    }
     .menu-toggle {
         padding: 0;
         font-size: 1.25rem;
