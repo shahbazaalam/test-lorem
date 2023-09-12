@@ -1,7 +1,7 @@
 export default function AboutSection(){
     return (
-        <section id="AboutUs" className="about-us-section section">
-        <div className="container mx-auto sm:px-4 container-1290">
+        <section id="AboutUs"  className="about-us-section section hidden lg:block">
+        <div className="container mx-auto   container-1290">
   
           <div className="flex flex-wrap bg-show">
             <div className="md:w-1/5 pr-4 pl-4">
